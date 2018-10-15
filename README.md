@@ -15,4 +15,6 @@ npm run test
 
 **Solution:**
 - I built a simple solution without many layers of abstraction because I wanted to keep the code straightforward
-- The core of the application is contained within the findTalk*() functions in the Track object, the function returns the index in the Talks array where the best combination is found, to do so, I take into account the remaining time to complete the session
+- The core of the application is contained within the findTalk*() functions in the Track object
+- The function returns the index in the Talks array where the best combination is found
+- To do so, I take into account the remaining time to complete the session
