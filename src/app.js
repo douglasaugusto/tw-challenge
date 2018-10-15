@@ -1,9 +1,9 @@
 const fs = require('fs');
 const file = process.argv[2];
 
-const Talk = require("./models/Talk").Talk;
-const Track = require("./models/Track").Track;
-const Conference = require("./models/Conference").Conference;
+const Talk = require("./models/talk").Talk;
+const Track = require("./models/track").Track;
+const Conference = require("./models/conference").Conference;
 
 fs.readFile(file, 'utf8', function (err, data) {
 
