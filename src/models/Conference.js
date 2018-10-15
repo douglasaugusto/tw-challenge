@@ -5,9 +5,7 @@ class Conference {
         this.constants = Object.freeze({
             START_HOUR_MORNING: 9,
             START_HOUR_AFTERNOON: 13,
-            START_MINUTE: 0,
-            MIN_AFTERNOON_SESSION_MINUTES: 180,
-            MAX_AFTERNOON_SESSION_MINUTES: 240
+            START_MINUTE: 0
         });
     }
 
