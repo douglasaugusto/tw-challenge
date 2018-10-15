@@ -19,7 +19,7 @@ fs.readFile(file, 'utf8', function (err, data) {
         talks.push(talk);
     });
 
-    // Process Talks to Tracks
+    // Fill Tracks
     let track = new Track([], 0, [], 0);
     let conference = new Conference([]);
     while (talks.length != 0) {

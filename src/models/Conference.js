@@ -28,7 +28,7 @@ class Conference {
     }
 
     printSchedule() {
-        var date = new Date();
+        let date = new Date();
         this.tracks.forEach((track, index) => {
             console.log(`Track ${index + 1}:`);
             date.setHours(this.constants.START_HOUR_MORNING);
